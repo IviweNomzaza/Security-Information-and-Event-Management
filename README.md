@@ -1,8 +1,9 @@
 # SIEM-LAB
 
 This is a 2-Phase project detailing the deployment and intelligence gathering of my local tailnet environment.
-Deployement 
+Deployment 
 This phase covers deployment and baseline investigation: standing up a Wazuh manager and indexer, enrolling six agents across four operating systems over a Tailscale mesh, and validating that FIM, rootcheck, and SCA compliance scanning work end to end.
+
 Agents and their respective roles:
 wazuh-manager	Zorin OS (Linux)	000	SIEM manager, indexer, dashboard, Postfix mail relay
 win-agent	Windows 11	003	Physical host + VMware hypervisor for the Linux VMs below; FIM and CIS benchmark target
