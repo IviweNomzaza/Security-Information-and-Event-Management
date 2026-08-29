@@ -10,3 +10,4 @@ macos-agent	macOS	001	External laptop; session/auth monitoring
 debian-agent	Debian 12	005	VMware VM on win-agent;  general syslog ,headless os
 lubuntu-agent	Lubuntu	002	VMware VM on win-agent; general syslog / AppArmor
 mint-agent	Linux Mint	004	VMware VM on win-agent; general syslog
+<img width="2828" height="1328" alt="Agents" src="https://github.com/user-attachments/assets/ee106810-e7da-4412-8162-be2123ea5eef" />
