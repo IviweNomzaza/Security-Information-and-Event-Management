@@ -1,0 +1,11 @@
+<!-- Local rules -->
+
+<!-- Local Rules -->
+<group name="local,">
+
+  <rule id="100002" level="12">
+    <match>Email_probe</match>
+    <description>Manually testing email alert</description>
+  </rule>
+
+</group>
