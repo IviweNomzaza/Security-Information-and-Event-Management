@@ -29,4 +29,4 @@ Snippets of Agent setting up process:
 <img width="518" height="187" alt="Screenshot 2026-08-24 143442" src="https://github.com/user-attachments/assets/069df348-3cf6-413a-9d03-138dda49c7a1" />
 <img width="524" height="308" alt="Screenshot 2026-08-24 143412" src="https://github.com/user-attachments/assets/42f10c89-84f2-414d-a60c-cd22f3f4817f" />
 
-
+The Linux mint user will be the focus target of this project. It will receive special attention and more scrutiny than the others.Most of the tests and Client-Server Experiments will be done on it.
