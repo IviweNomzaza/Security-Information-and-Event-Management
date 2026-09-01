@@ -20,5 +20,12 @@ mint-agent	Linux Mint	004	VMware VM on win-agent; general syslog.
 
 <img width="2828" height="1328" alt="Agents" src="https://github.com/user-attachments/assets/ee106810-e7da-4412-8162-be2123ea5eef" />
 
-Tailnet Layout
+Tailnet Layout:
 <img width="656" height="454" alt="image" src="https://github.com/user-attachments/assets/e0770da5-1c60-4065-ae60-a5408fb2fa49" />
+
+Snippets of Agent setting up process
+<img width="518" height="187" alt="Screenshot 2026-08-24 143442" src="https://github.com/user-attachments/assets/069df348-3cf6-413a-9d03-138dda49c7a1" />
+
+<img width="524" height="308" alt="Screenshot 2026-08-24 143412" src="https://github.com/user-attachments/assets/42f10c89-84f2-414d-a60c-cd22f3f4817f" />
+
+
