@@ -1,4 +1,4 @@
-# SIEM-LAB
+# SIEM-XDR-LAB
 
 This is a 2-Phase project detailing the deployment and intelligence gathering of my local tailnet environment.
 Deployment 
