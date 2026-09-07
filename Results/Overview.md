@@ -74,6 +74,7 @@ Pulled directly from the manager's `ossec.conf`:
 **Active Response** is deliberately staged, not fully wired: `firewall-drop`, `host-deny`, `disable-account`, `route-null`, and `netsh` are all registered as executable commands, but no `<active-response>` block yet binds any of them to a triggering rule or level. This means the mitigation scripts are installed and ready, but nothing on the manager will invoke them automatically yet — a sensible sequencing choice while the ruleset is still being tuned (see §7–8).
 
 ## 4. Third-Party Integrations
+<img width="1452" height="976" alt="Screenshot 2026-09-04 at 01-41-13 VirusTotal - Home" src="https://github.com/user-attachments/assets/7791c747-bec5-473c-9247-b86e8700dab1" />
 
 ### VirusTotal
 Configured against the `syscheck` group (any FIM event, level ≥3, JSON alert format). This is live and working: over the capture window it fired on both Linux file-hash lookups (e.g., a modified CUPS config file, returned "no records found") and Windows registry-value hash lookups (e.g., a VSS registry writer key). It also hit the **free-tier public API rate limit** mid-scan (`Error: Public API request rate limit reached`, rule 87101) — a direct signal that FIM-triggered lookup volume on the Windows host outpaces the 4 requests/minute free-tier ceiling, and a good candidate for throttling or a paid key before relying on this for real detections.
@@ -104,6 +105,7 @@ Configured to forward alerts (level ≥3, JSON) to a self-hosted Shuffle webhook
 ## 6. Detection Validation — Live Capture, 2026-09-07
 
 774 alerts across ~30 distinct rule IDs, all from `wazuh-manager-01` (self-monitoring), `win-agent-01`, and `macos-agent-01`. The Debian/Lubuntu/Mint VMs weren't emitting alerts during this particular window, so their intended detections (SSH brute-force, AppArmor/PAM) aren't represented below — see §8.
+<img width="2316" height="490" alt="Screenshot 2026-09-04 at 03-45-52 Inbox (768) - iviwenomzaza51@gmail com - Gmail" src="https://github.com/user-attachments/assets/21cee5b4-48da-49e8-928e-dcdfd6b4b095" />
 
 ### Manager self-monitoring (Zorin OS)
 - **AppArmor DENIED** (rule 52002, level 3) — `cups-browsed` denied the `sys_nice` capability. Routine confinement noise from CUPS printing, not attacker activity.
