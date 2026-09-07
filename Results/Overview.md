@@ -143,9 +143,7 @@ Configured to forward alerts (level ≥3, JSON) to a self-hosted Shuffle webhook
 1. Bring the Debian, Lubuntu, and Mint VM agents online for a repeat capture window, and run the SSH brute-force simulation (targeting Debian) and AppArmor/PAM checks (Lubuntu/Mint) so those detections have real, evidenced alert data alongside the Windows/macOS/manager results above.
 2. Suppress the highest-volume, lowest-value FIM registry keys (Defender heartbeat-style keys, ACPI, SPP, dynamic Firewall rule churn) in `local_rules.xml` to cut the ~45% registry-noise share before adding new correlation rules on top of it.
 3. Add a documented rootcheck exception for the VeraCrypt mount-point false positive instead of re-triaging it every scan.
-4. Throttle or upgrade the VirusTotal integration so enrichment doesn't silently drop during high-FIM-volume windows.
-5. Wire `<active-response>` blocks — starting with `firewall-drop`/`host-deny` bound to repeated-authentication-failure and brute-force rule IDs once the Debian SSH test above produces real rule hits to bind against.
-6. Build custom MITRE ATT&CK-aligned correlation rules once the noise floor from #2 is under control, so new rules are evaluated against a clean baseline.
+
 
 ## Skills Demonstrated
 
