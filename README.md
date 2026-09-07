@@ -30,3 +30,25 @@ Snippets of Agent setting up process:
 <img width="524" height="308" alt="Screenshot 2026-08-24 143412" src="https://github.com/user-attachments/assets/42f10c89-84f2-414d-a60c-cd22f3f4817f" />
 
 The Linux mint user will be the focus target of this project. It will receive special attention and more scrutiny than the others.Most of the tests and Client-Server Experiments will be done on it.
+
+Sample Overview of the entire project:
+Threat intelligence 
+<img width="1524" height="747" alt="Screenshot 2026-09-01 at 23-20-00 Wazuh" src="https://github.com/user-attachments/assets/f7734d6c-7cba-4eb7-b025-afa835f07418" />
+
+<img width="1514" height="747" alt="Screenshot 2026-09-01 at 23-02-59 Wazuh" src="https://github.com/user-attachments/assets/1b732dbd-573c-4cc0-80fe-343f291c74b0" />
+<img width="1525" height="815" alt="Screenshot 2026-09-01 at 23-21-38 Wazuh" src="https://github.com/user-attachments/assets/54d04b20-f0ce-4466-80d8-a09e58b06aa1" />
+
+SecOps
+
+<img width="1525" height="1039" alt="Screenshot 2026-09-01 at 23-31-09 Wazuh" src="https://github.com/user-attachments/assets/5d05e7fd-5322-4db5-baf7-154eb7cb217c" />
+<img width="1525" height="823" alt="Screenshot 2026-09-01 at 23-46-07 Wazuh" src="https://github.com/user-attachments/assets/61a5edc8-546a-4e25-8099-bb29a7418443" />
+
+<img width="1484" height="749" alt="Screenshot 2026-09-01 at 23-48-45 Wazuh" src="https://github.com/user-attachments/assets/1356a2a2-c523-4c84-a83b-885f36457a79" />
+
+EndPoint Security
+
+<img width="1506" height="230" alt="Screenshot 2026-09-01 at 21-58-15 Wazuh" src="https://github.com/user-attachments/assets/94c2d910-90f6-458d-b007-f3cf4dc1a4df" />
+<img width="1522" height="846" alt="Screenshot 2026-09-01 at 22-00-04 Wazuh" src="https://github.com/user-attachments/assets/f4b8f69c-7a43-4613-bedf-7ad355889852" />
+
+
+
