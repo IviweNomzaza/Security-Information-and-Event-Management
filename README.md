@@ -47,7 +47,8 @@ SecOps
 
 EndPoint Security
 
-<img width="1506" height="230" alt="Screenshot 2026-09-01 at 21-58-15 Wazuh" src="https://github.com/user-attachments/assets/94c2d910-90f6-458d-b007-f3cf4dc1a4df" />
+<img width="1520" height="932" alt="Screenshot 2026-09-01 at 22-03-21 Wazuh" src="https://github.com/user-attachments/assets/0e6040ae-d6a0-47d4-a44f-15a9e19a6f65" />
+
 <img width="1522" height="846" alt="Screenshot 2026-09-01 at 22-00-04 Wazuh" src="https://github.com/user-attachments/assets/f4b8f69c-7a43-4613-bedf-7ad355889852" />
 
 
